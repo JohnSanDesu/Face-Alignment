@@ -1,23 +1,21 @@
-# Facial Alignment and Lip/Eyes Color Modification
+# Facial Alignment 
 
-## 📘 Overview
+## Overview
 
-This project investigates two computer vision tasks using Convolutional Neural Networks (CNNs):
+This project investigates a computer vision task using Convolutional Neural Networks (CNNs):
 
 1. **Face Alignment**: Detecting and aligning facial keypoints.
-2. **Lip and Eye Color Modification**: Applying color changes based on aligned keypoints.
+
 
 Developed by **Keisuke Tsujie** on **16/05/2024** as part of a university module assignment.
 
 ---
 
-## 🧠 Task 1: Face Alignment
-
-### 🎯 Objective
+### Objective
 
 Detect and align facial keypoints (e.g., eyes, nose, mouth) from image data using a trained CNN model.
 
-### ⚙️ Methodology
+### Methodology
 
 - **Data Preprocessing**
   - Input: NumPy-formatted facial image dataset.
@@ -45,35 +43,6 @@ Detect and align facial keypoints (e.g., eyes, nose, mouth) from image data usin
   - Success with front-facing, neutral expression images.
   - Failure with tilted angles, exaggerated facial expressions, or low-quality input.
 
-- **Improvement Suggestions**
-  - Use **AdamW** optimizer (includes L2 regularization).
-  - Apply **data augmentation** (e.g., rotation, flipping).
-  - Update CNN architecture to better handle diverse data.
-
----
-
-## 🎨 Task 2: Lip and Eye Color Modification
-
-### 🎯 Objective
-
-Modify the color of lips and eyes in facial images by segmenting regions using keypoints.
-
-### ⚙️ Methodology
-
-- Use facial keypoint indexes to create binary masks for lips and eyes.
-- Apply color transformations (e.g., red tones) to the masked regions.
-
-### 📈 Results
-
-- **Success Cases**: Accurate red coloring of lips and eyes in aligned images.
-- **Failure Cases**: Inaccurate coloring if facial alignment is off.
-
-### 💡 Suggestions
-
-- Train a dedicated CNN to detect lips and eyes more precisely.
-- Improve accuracy of facial alignment for better downstream performance.
-
----
 
 ## 📦 Dependencies
 
