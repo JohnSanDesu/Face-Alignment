@@ -33,7 +33,7 @@ Detect and align facial keypoints (e.g., eyes, nose, mouth) from image data usin
   - Batch Size: 10
   - Activation Function: ReLU
 
-### 📈 Results
+### Results
 
 - **Quantitative Analysis**
   - High accuracy on training data: ~90% within error margin of 0.0005–0.0015.
@@ -44,7 +44,7 @@ Detect and align facial keypoints (e.g., eyes, nose, mouth) from image data usin
   - Failure with tilted angles, exaggerated facial expressions, or low-quality input.
 
 
-## 📦 Dependencies
+## Dependencies
 
 - Python 3.x
 - PyTorch
@@ -54,7 +54,7 @@ Detect and align facial keypoints (e.g., eyes, nose, mouth) from image data usin
 
 ---
 
-## 🔗 References
+## References
 
 - [ReLU in Deep Learning – Kaggle](https://www.kaggle.com/code/dansbecker/rectified-linear-units-relu-in-deep-learning)  
 - [Facial Landmark Detection GitHub Repo](https://github.com/vinayprabhu/facial-landmark-detection)  
@@ -62,7 +62,7 @@ Detect and align facial keypoints (e.g., eyes, nose, mouth) from image data usin
 
 ---
 
-## 👤 Author
+## Author
 
 **Keisuke Tsujie**  
 University of Sussex  
